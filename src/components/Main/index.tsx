@@ -1,10 +1,10 @@
 import Image from "next/image";
-import styles from "@/styles/Home.module.scss";
+import styles from "src/components/Main/Main.module.scss";
 import { Inter } from "next/font/google";
 
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Main() {
+export function Main() {
   return (
     <div className={styles.center}>
       <Image
