@@ -1,4 +1,4 @@
-import styles from "@/styles/Home.module.scss";
+import styles from "src/styles/Home.module.scss";
 import { Inter } from "next/font/google";
 import { Header } from "src/components/Header";
 import { Footer } from "src/components/Footer";
