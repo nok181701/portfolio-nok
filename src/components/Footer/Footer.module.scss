@@ -1,8 +1,11 @@
 .grid {
-  display: grid;
   grid-template-columns: repeat(4, minmax(25%, auto));
   width: var(--max-width);
   max-width: 100%;
+  ul {
+    display: flex;
+    justify-content: center;
+  }
 }
 
 .card {
@@ -55,7 +58,7 @@
     grid-template-columns: 1fr;
     margin-bottom: 120px;
     max-width: 320px;
-    text-align: center;
+    // text-align: center;
   }
 
   .card {
