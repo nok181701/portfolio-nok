@@ -1,12 +1,14 @@
 import * as React from "react";
+import Link from "next/link";
 import Box from "@mui/material/Box";
-import Avatar from "@mui/material/Avatar";
 import Menu from "@mui/material/Menu";
 import MenuItem from "@mui/material/MenuItem";
 import IconButton from "@mui/material/IconButton";
 import Tooltip from "@mui/material/Tooltip";
 import HomeIcon from "@mui/icons-material/Home";
-import Link from "next/link";
+import AccountCircleSharpIcon from "@mui/icons-material/AccountCircleSharp";
+import RateReviewIcon from "@mui/icons-material/RateReview";
+import ConnectWithoutContactIcon from "@mui/icons-material/ConnectWithoutContact";
 
 export function AccountMenu() {
   const [anchorEl, setAnchorEl] = React.useState<null | HTMLElement>(null);
@@ -36,11 +38,7 @@ export function AccountMenu() {
             aria-haspopup="true"
             aria-expanded={open ? "true" : undefined}
           >
-            <Avatar sx={{ width: 34, height: 34 }}>
-              <HomeIcon
-                sx={{ width: 32, height: 32, color: "#fff" }}
-              ></HomeIcon>
-            </Avatar>
+            <HomeIcon sx={{ width: 34, height: 34, color: "#fff" }}></HomeIcon>
           </IconButton>
         </Tooltip>
       </Box>
@@ -55,6 +53,7 @@ export function AccountMenu() {
           sx: {
             overflow: "visible",
             filter: "drop-shadow(0px 2px 8px rgba(0,0,0,0.32))",
+            background: "#f5ad42",
             mt: 1.5,
             "& .MuiAvatar-root": {
               width: 32,
@@ -68,16 +67,54 @@ export function AccountMenu() {
         anchorOrigin={{ horizontal: "right", vertical: "bottom" }}
       >
         <MenuItem onClick={handleClose}>
-          <Avatar /> <Link href="/">Home</Link>
+          <HomeIcon
+            sx={{
+              width: 32,
+              height: 32,
+              color: "#fff",
+              marginRight: 1,
+            }}
+          />
+          <Link href="/">{<span style={{ color: "#fff" }}>Home</span>}</Link>
         </MenuItem>
         <MenuItem onClick={handleClose}>
-          <Avatar /> <Link href="/about">About</Link>
+          <AccountCircleSharpIcon
+            sx={{
+              width: 32,
+              height: 32,
+              color: "#fff",
+              marginRight: 1,
+            }}
+          />
+          <Link href="/about">
+            {<span style={{ color: "#fff" }}>About</span>}
+          </Link>
         </MenuItem>
         <MenuItem onClick={handleClose}>
-          <Avatar /> <Link href="/skill">Skill</Link>
+          <RateReviewIcon
+            sx={{
+              width: 32,
+              height: 32,
+              color: "#fff",
+              marginRight: 1,
+            }}
+          />
+          <Link href="/skill">
+            {<span style={{ color: "#fff" }}>Skill</span>}
+          </Link>
         </MenuItem>
         <MenuItem onClick={handleClose}>
-          <Avatar /> <Link href="/contact">Contact</Link>
+          <ConnectWithoutContactIcon
+            sx={{
+              width: 32,
+              height: 32,
+              color: "#fff",
+              marginRight: 1,
+            }}
+          />
+          <Link href="/contact">
+            {<span style={{ color: "#fff" }}>Contact</span>}
+          </Link>
         </MenuItem>
       </Menu>
     </React.Fragment>
