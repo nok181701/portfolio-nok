@@ -1,13 +1,11 @@
 :root {
   --max-width: 1400px;
   --border-radius: 12px;
-  --font-mono: ui-monospace, Menlo, Monaco, "Cascadia Mono", "Segoe UI Mono",
-    "Roboto Mono", "Oxygen Mono", "Ubuntu Monospace", "Source Code Pro",
-    "Fira Mono", "Droid Sans Mono", "Courier New", monospace;
-
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+  --foreground-rgb: 255, 255, 255;
+  --background-start-rgb: 245, 173, 66;
+  --background-end-rgb: 245, 173, 66;
+  color: #fff;
 
   --primary-glow: conic-gradient(
     from 180deg at 50% 50%,

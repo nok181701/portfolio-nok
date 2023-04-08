@@ -1,8 +1,7 @@
 .description {
   z-index: 2;
-  font-family: var(--font-mono);
   width: 100%;
-  background: #bdbdbd;
+
   a {
     gap: 0.5rem;
   }
@@ -14,17 +13,12 @@
     position: relative;
     display: inline;
     margin: 0;
-    padding: 2rem;
+    padding: 1.5rem 3rem;
     font-size: 1rem;
   }
   div {
     display: none;
   }
-}
-
-.code {
-  font-weight: 700;
-  font-family: var(--font-mono);
 }
 
 @media (prefers-reduced-motion) {
