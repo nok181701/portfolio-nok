@@ -1,0 +1,10 @@
+.timeline {
+  max-width: 1200px;
+  @media (max-width: 800px) {
+    max-width: 400px;
+  }
+}
+.theme {
+  font-size: 1.1rem;
+  color: #717171;
+}
