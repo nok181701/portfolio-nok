@@ -13,7 +13,7 @@
     position: relative;
     display: inline;
     margin: 0;
-    padding: 1.5rem 3rem;
+    padding: 2.5rem 3rem;
     font-size: 1rem;
   }
   div {
@@ -26,13 +26,11 @@
     animation: none;
   }
 }
-.none {
-  display: none;
-}
 
 /* Mobile */
 @media (max-width: 1000px) {
   .description {
+    display: flex;
     font-size: 0.8rem;
     ul {
       justify-content: left;
