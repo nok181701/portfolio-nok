@@ -1,5 +1,5 @@
 import * as React from "react";
-import styles from "src/components/Contents/CustomizedTimeline/CustomizedTimeline.module.scss";
+import styles from "src/components/ContentsAbout/CustomizedTimeline/CustomizedTimeline.module.scss";
 import Timeline from "@mui/lab/Timeline";
 import TimelineItem from "@mui/lab/TimelineItem";
 import TimelineSeparator from "@mui/lab/TimelineSeparator";
@@ -62,7 +62,7 @@ export function CustomizedTimeline() {
             営業職
           </Typography>
           <Typography>
-            営業職に就職ゲームセンターの総合職に就職しました。実習店舗運営を経験したのち、筐体を販売する営業をしていました。
+            営業職に就職ゲームセンターの総合職に就職しました。店舗運営を経験したのち、筐体を販売する営業をしていました。
           </Typography>
         </TimelineContent>
       </TimelineItem>
