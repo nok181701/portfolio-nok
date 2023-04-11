@@ -16,14 +16,14 @@ export function ActionAreaCard() {
             <Image src="/react.png" width={200} height={200} alt="Iwai Naoki" />
           </CardMedia>
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography variant="h5" component="div">
               React
-              <Rating
-                name="rating-read"
-                defaultValue={3}
-                className={styles.rate}
-              />
             </Typography>
+            <Rating
+              name="rating-read"
+              defaultValue={3}
+              className={styles.rate}
+            />
             <Typography variant="body2" color="text.secondary">
               こちらのポートフォリオはReactで作っています。
             </Typography>
@@ -41,14 +41,14 @@ export function ActionAreaCard() {
             />
           </CardMedia>
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography variant="h5" component="div">
               TypeScript
-              <Rating
-                name="rating-read"
-                defaultValue={3}
-                className={styles.rate}
-              />
             </Typography>
+            <Rating
+              name="rating-read"
+              defaultValue={3}
+              className={styles.rate}
+            />
             <Typography variant="body2" color="text.secondary">
               ああああああああああああああああああああああああああああああああああああ
             </Typography>
@@ -67,14 +67,14 @@ export function ActionAreaCard() {
             />
           </CardMedia>
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography variant="h5" component="div">
               Next.js
-              <Rating
-                name="rating-read"
-                defaultValue={3}
-                className={styles.rate}
-              />
             </Typography>
+            <Rating
+              name="rating-read"
+              defaultValue={3}
+              className={styles.rate}
+            />
             <Typography variant="body2" color="text.secondary">
               ああああああああああああああああああああああああああああああああああああ
             </Typography>
@@ -87,14 +87,14 @@ export function ActionAreaCard() {
             <Image src="/sass.png" width={200} height={200} alt="Iwai Naoki" />
           </CardMedia>
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography variant="h5" component="div">
               Sass
-              <Rating
-                name="rating-read"
-                defaultValue={4}
-                className={styles.rate}
-              />
             </Typography>
+            <Rating
+              name="rating-read"
+              defaultValue={4}
+              className={styles.rate}
+            />
             <Typography variant="body2" color="text.secondary">
               ああああああああああああああああああああああああああああああああああああ
             </Typography>
@@ -112,14 +112,14 @@ export function ActionAreaCard() {
             />
           </CardMedia>
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography variant="h5" component="div">
               JavaScript
-              <Rating
-                name="rating-read"
-                defaultValue={4}
-                className={styles.rate}
-              />
             </Typography>
+            <Rating
+              name="rating-read"
+              defaultValue={4}
+              className={styles.rate}
+            />
             <Typography variant="body2" color="text.secondary">
               ああああああああああああああああああああああああああああああああああああ
             </Typography>
@@ -137,14 +137,14 @@ export function ActionAreaCard() {
             />
           </CardMedia>
           <CardContent>
-            <Typography gutterBottom variant="h5" component="div">
+            <Typography variant="h5" component="div">
               GitHub
-              <Rating
-                name="rating-read"
-                defaultValue={4}
-                className={styles.rate}
-              />
             </Typography>
+            <Rating
+              name="rating-read"
+              defaultValue={4}
+              className={styles.rate}
+            />
             <Typography variant="body2" color="text.secondary">
               ああああああああああああああああああああああああああああああああああああ
             </Typography>
