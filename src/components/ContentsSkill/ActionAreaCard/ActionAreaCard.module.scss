@@ -1,0 +1,22 @@
+.card {
+  margin: 2rem 1.5rem 0;
+}
+
+.icon {
+  text-align: center;
+}
+.nextjs {
+  padding: 1rem;
+}
+.cardwrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  @media (max-width: 1000px) {
+    display: block;
+  }
+}
+.rate {
+  display: flex;
+  min-height: fit-content;
+}
