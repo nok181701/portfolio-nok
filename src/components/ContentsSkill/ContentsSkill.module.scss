@@ -1,0 +1,18 @@
+.title {
+  text-align: center;
+  margin: 2.5rem 0;
+  font-size: 2rem;
+}
+
+.img {
+  border-radius: 50%;
+}
+
+.icon {
+  width: 10%;
+  height: 10%;
+  @media (max-width: 700px) {
+    width: 25%;
+    height: 25%;
+  }
+}
