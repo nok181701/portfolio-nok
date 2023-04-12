@@ -25,7 +25,7 @@ export function ActionAreaCard() {
               className={styles.rate}
             />
             <Typography variant="body2" color="text.secondary">
-              こちらのポートフォリオはReactで作っています。
+              直近の現場で少し触りました。こちらのポートフォリオはReactを使用しています。
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -50,7 +50,7 @@ export function ActionAreaCard() {
               className={styles.rate}
             />
             <Typography variant="body2" color="text.secondary">
-              ああああああああああああああああああああああああああああああああああああ
+              「記述長くなるな…」と思っていましたが、とはいえ型付けの素晴らしさに感動しました。今後も勉強したいと思います。
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -76,7 +76,8 @@ export function ActionAreaCard() {
               className={styles.rate}
             />
             <Typography variant="body2" color="text.secondary">
-              ああああああああああああああああああああああああああああああああああああ
+              こちらもポートフォリオで使用。Zero Configや File-system
+              Routingの恩恵でスムーズにつくれると思い、こちらを採用しています。
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -96,7 +97,8 @@ export function ActionAreaCard() {
               className={styles.rate}
             />
             <Typography variant="body2" color="text.secondary">
-              ああああああああああああああああああああああああああああああああああああ
+              CSSは必ずSassに変換してから使っています。（Tailwind
+              CSSもいずれ学ぶ予定…！）
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -121,7 +123,7 @@ export function ActionAreaCard() {
               className={styles.rate}
             />
             <Typography variant="body2" color="text.secondary">
-              ああああああああああああああああああああああああああああああああああああ
+              学生時代から実務まで使用してきましたので割と自信があります。
             </Typography>
           </CardContent>
         </CardActionArea>
@@ -146,7 +148,7 @@ export function ActionAreaCard() {
               className={styles.rate}
             />
             <Typography variant="body2" color="text.secondary">
-              ああああああああああああああああああああああああああああああああああああ
+              こちらも個人から実務まで使用。エンジニアにとって必須ですね。
             </Typography>
           </CardContent>
         </CardActionArea>
