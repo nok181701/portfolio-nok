@@ -19,10 +19,10 @@ export function Header() {
           <Link href="/about">About</Link>
         </li>
         <li>
-          <Link href="/skill">Skill</Link>
+          <Link href="/skills">Skills</Link>
         </li>
         <li>
-          <Link href="/contact">Contact</Link>
+          <Link href="/works">Works</Link>
         </li>
       </ul>
     </header>

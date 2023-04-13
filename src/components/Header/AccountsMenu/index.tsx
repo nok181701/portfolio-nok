@@ -99,8 +99,8 @@ export function AccountMenu() {
               marginRight: 1,
             }}
           />
-          <Link href="/skill">
-            {<span style={{ color: "#fff" }}>Skill</span>}
+          <Link href="/skills">
+            {<span style={{ color: "#fff" }}>Skills</span>}
           </Link>
         </MenuItem>
         <MenuItem onClick={handleClose}>
@@ -112,8 +112,8 @@ export function AccountMenu() {
               marginRight: 1,
             }}
           />
-          <Link href="/contact">
-            {<span style={{ color: "#fff" }}>Contact</span>}
+          <Link href="/works">
+            {<span style={{ color: "#fff" }}>Works</span>}
           </Link>
         </MenuItem>
       </Menu>
