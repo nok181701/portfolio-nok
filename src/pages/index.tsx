@@ -1,6 +1,6 @@
 import styles from "src/styles/Home.module.scss";
 import { Inter } from "next/font/google";
-import { Header } from "src/components/Header";
+import { Header } from "src/components/Header/header";
 import { Main } from "src/components/Main";
 import { Footer } from "src/components/Footer";
 
