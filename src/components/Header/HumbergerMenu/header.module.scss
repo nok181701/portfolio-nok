@@ -1,0 +1,28 @@
+//PC
+.description {
+  width: 100%;
+  // box-shadow: 0 1.9px 2.5px rgba(0, 0, 0, 0.057);
+  ul {
+    display: flex;
+    justify-content: center;
+  }
+  li {
+    display: inline;
+    padding: 2rem 3rem;
+    font-size: 1.2rem;
+  }
+  @media (max-width: 700px) {
+    display: none;
+  }
+}
+
+//SP
+.appbar {
+  display: none;
+}
+@media (max-width: 700px) {
+  .appbar {
+    display: block;
+    background: rgb(252, 186, 3);
+  }
+}

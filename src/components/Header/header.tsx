@@ -1,7 +1,7 @@
 import styles from "src/components/Header/Header.module.scss";
 import Link from "next/link";
 import { Inter } from "next/font/google";
-import { AccountMenu } from "./AccountsMenu";
+import { HumbergerMenu } from "./HumbergerMenu/humbergermenu";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -10,7 +10,7 @@ export function Header() {
     <header className={styles.description}>
       <ul>
         <div>
-          <AccountMenu />
+          <HumbergerMenu title="" />
         </div>
         <li>
           <Link href="/">Home</Link>
